@@ -217,24 +217,7 @@ a:focus {
 
 /* Skills Wrap (Now Light Background similar to other sections) */
 
-#skillswrap {
-	background: #ffffff;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: #1e293b;
-	border-top: 1px solid #e2e8f0;
-	border-bottom: 1px solid #e2e8f0;
-}
-
-#skillswrap h5 {
-	color: #00587C !important;
-	font-weight: 700;
-	letter-spacing: 1px;
-}
-
-#skillswrap p {
-	color: #1e293b !important;
-}
+/* Skills styling inside standard desc section */
 
 .skill-pill-container {
     margin-bottom: 25px;
