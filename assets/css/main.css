@@ -192,7 +192,14 @@ a:focus {
 }
 
 #intro a {
-	color: #64CCC9 !important;
+	color: #64CCC9;
+	font-weight: 600;
+}
+
+#intro .col-lg-3 a,
+#intro .col-lg-3 a sm,
+#intro .col-lg-3 a i {
+	color: #ffffff !important;
 	font-weight: 600;
 }
 
