@@ -170,7 +170,7 @@ a:focus {
 	text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* Intro Wrap */
+/* Intro Wrap (About Section) */
 
 #intro {
 	background: #00587C;
@@ -208,23 +208,25 @@ a:focus {
 	vertical-align: middle;
 }
 
-/* Skills Wrap */
+/* Skills Wrap (Now Light Background similar to other sections) */
 
 #skillswrap {
-	background: #00587C;
+	background: #ffffff;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: #ffffff;
+	color: #1e293b;
+	border-top: 1px solid #e2e8f0;
+	border-bottom: 1px solid #e2e8f0;
 }
 
 #skillswrap h5 {
-	color: #64CCC9 !important;
+	color: #00587C !important;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
 #skillswrap p {
-	color: #ffffff !important;
+	color: #1e293b !important;
 }
 
 .skill-pill-container {
@@ -234,35 +236,37 @@ a:focus {
 
 .skill-badge {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.18);
-    color: #ffffff !important;
-    padding: 5px 14px;
+    background: #f1f5f9;
+    color: #0f172a !important;
+    padding: 6px 14px;
     margin: 4px 5px;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #cbd5e1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
 }
 
 .skill-category-label {
-    color: #64CCC9 !important;
+    color: #00587C !important;
     font-weight: 700;
     font-size: 17px;
     margin-bottom: 8px;
 }
 
-/* Footer Wrap */
+/* Footer Wrap (Contact Section - Now Deep Ocean Blue #00587C like former skills BG) */
 
 #footwrap {
-	background: #0f172a;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background: #00587C;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	color: #ffffff;
 }
 
 #footwrap p {
-	color: #e2e8f0 !important;
+	color: #ffffff !important;
 	font-size: 15px;
+	line-height: 1.8;
 }
 
 #footwrap h5 {
@@ -273,7 +277,7 @@ a:focus {
 
 #footwrap t {
 	font-weight: 700;
-	color: #ffffff !important;
+	color: #64CCC9 !important;
 }
 
 #footwrap i {
@@ -292,13 +296,13 @@ a:focus {
 /* Copyright Wrap */
 
 #c {
-	background: #050914;
+	background: #004663;
 	padding-top: 15px;
 	text-align: right;
 }
 
 #c p {
-	color: #94a3b8 !important;
+	color: #e2e8f0 !important;
 }
 
 /* Global Values */
