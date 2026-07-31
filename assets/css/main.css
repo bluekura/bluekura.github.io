@@ -265,6 +265,7 @@ a:focus {
 	line-height: 1.8;
 }
 
+#footwrap h5,
 #footwrap sm {
 	color: #64CCC9 !important;
 	font-weight: 700;
@@ -320,14 +321,14 @@ a:focus {
 	font-size: 16px;
 }
 
-.desc imp {
+.desc imp,
+.desc imp sm {
 	padding: 4px 10px;
 	color: #ffffff !important;
 	background: #008EAA;
 	border-radius: 4px;
 	font-weight: 600;
 	display: inline-block;
-	margin-left: 6px;
 }
 
 .desc more {
