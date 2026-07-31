@@ -4,14 +4,15 @@
  * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
  * Version: 1.0
  * URL: http://blacktie.co
+ * Updated with Soongsil University ADSL Brand Colors (#00587C, #008EAA, #64CCC9)
  */
 
 body {
-  background-color: #f2f2f2;
-    font-family: "Lato";
+    background-color: #f8fafc;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #334155;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -19,11 +20,10 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #333;
+    color: #0f172a;
 }
-
 
 /* Paragraph & Typographic */
 p {
@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #008EAA;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -49,7 +49,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #004663;
     text-decoration: none;
     outline: 0;
 }
@@ -67,11 +67,10 @@ a:after {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #e2e8f0;
     margin: 1em 0;
     padding: 0;
 }
-
 
 /*---------------------------------------------------
 	3.1 Topbar
@@ -92,15 +91,13 @@ a:after {
 }
 
 #topbar-inner {
-	background: #111;
+	background: #00587C;
 	line-height: 0;
 	text-align: center;
 }
 
 /*
 	Top Bar
-
-	By default, top navigation bar uses "fixed" position
 */
 #section-topbar ul#nav {
 	display: inline-block;
@@ -108,7 +105,7 @@ a:after {
 	margin: 0;
 	padding: 0;
 
-	border-right: 1px solid #222;
+	border-right: 1px solid #004663;
 
 	/* For IE, the outcast */
 	zoom:1;
@@ -121,28 +118,27 @@ a:after {
     padding: 0;
 }
 
-
 #section-topbar ul#nav a {
   display: block;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 13px 15px 13px 15px;
-  border-left: 1px solid #222;
+  border-left: 1px solid #004663;
 }
 	#section-topbar ul#nav a:hover {
-	  background: #222;
+	  background: #004663;
 	  text-decoration: none;
-	  border-left: 1px solid #111;
+	  border-left: 1px solid #00374e;
 	}
 
 	#section-topbar ul#nav a:active {
-		background: #44bbaa;
-		border-left: 1px solid #111;
+		background: #008EAA;
+		border-left: 1px solid #00374e;
 	}
 
 	#section-topbar ul#nav a:focus {
-		background: #44bbaa;
-		border-left: 1px solid #111;
+		background: #008EAA;
+		border-left: 1px solid #00374e;
 	}
 
 #section-topbar i {
@@ -163,11 +159,6 @@ a:after {
 	min-height: 500px;
 	width: 100%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -184,10 +175,10 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
-	background: #2c3e50;
+	background: #00587C;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -204,9 +195,8 @@ a:after {
 	vertical-align: middle;
 }
 
-
 #skillswrap {
-	background: #2c3e50;
+	background: #00587C;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -217,7 +207,7 @@ a:after {
 }
 
 #footwrap {
-	background: #2f2f2f;
+	background: #0f172a;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -230,20 +220,19 @@ a:after {
 	color: white;
 }
 
-
 #footwrap t {
 	font-weight: 700;
 }
 
 #footwrap i {
 	padding-right: 8px;
-	color: #1abc9c;
+	color: #64CCC9;
 }
 
 /* Copyright Wrap */
 
 #c {
-	background: #222222;
+	background: #0b1120;
 	padding-top: 15px;
 	text-align: right;
 }
@@ -252,8 +241,6 @@ a:after {
 	color: white
 }
 
-
-
 /* Global Values */
 
 .desc {
@@ -261,25 +248,50 @@ a:after {
 }
 
 .desc p {
-	color: #2f2f2f;
+	color: #334155;
 }
 
 .desc t {
-	color: #34495e;
+	color: #00587C;
 	font-weight: 700;
 }
 
 .desc imp {
-	padding: 6px;
+	padding: 4px 8px;
 	color: white;
-	background: #34495e;
+	background: #008EAA;
+	border-radius: 4px;
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #64748b;
 }
-
 
 sm {
 	font-size: 12px;
+}
+
+/* Skill Badge Pills Styling */
+.skill-pill-container {
+    margin-bottom: 25px;
+    line-height: 2;
+}
+
+.skill-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 4px 12px;
+    margin: 3px 4px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skill-category-label {
+    color: #64CCC9;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
 }
