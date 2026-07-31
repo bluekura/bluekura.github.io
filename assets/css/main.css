@@ -282,7 +282,7 @@ a:focus {
 	line-height: 1.8;
 }
 
-#footwrap h5 {
+#footwrap sm {
 	color: #64CCC9 !important;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -295,15 +295,16 @@ a:focus {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #64CCC9;
+	color: #ffffff !important;
+	font-size: 22px;
 }
 
 #footwrap a {
-	color: #64CCC9 !important;
+	color: #ffffff !important;
 }
 
-#footwrap a:hover {
-	color: #ffffff !important;
+#footwrap a:hover i {
+	color: #64CCC9 !important;
 }
 
 /* Copyright Wrap */
