@@ -502,10 +502,26 @@
 	</div><!--/ #footer -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap & Smooth Scroll JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			document.querySelectorAll('a.smoothScroll').forEach(function(anchor) {
+				anchor.addEventListener('click', function(e) {
+					var targetId = this.getAttribute('href');
+					if (targetId && targetId.startsWith('#')) {
+						var targetElement = document.querySelector(targetId);
+						if (targetElement) {
+							e.preventDefault();
+							targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+						}
+					}
+				});
+			});
+		});
+    </script>
   </body>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
