@@ -1,4 +1,4 @@
- /* Author: Carlos Alvarez
+/* Author: Carlos Alvarez
  * URL: http://alvarez.is
  *
  * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
@@ -10,9 +10,9 @@
 body {
     background-color: #f8fafc;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
-    color: #334155;
+    color: #1e293b;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -21,7 +21,7 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     color: #0f172a;
 }
 
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    color: #1e293b;
 }
 
 .centered {
@@ -39,6 +40,7 @@ p {
 a {
     color: #008EAA;
     word-wrap: break-word;
+    font-weight: 500;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -50,24 +52,15 @@ a {
 a:hover,
 a:focus {
     color: #004663;
-    text-decoration: none;
+    text-decoration: underline;
     outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
  hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #cbd5e1;
     margin: 1em 0;
     padding: 0;
 }
@@ -83,11 +76,11 @@ a:after {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #section-topbar a {
-  color: #fff;
+  color: #ffffff;
 }
 
 #topbar-inner {
@@ -96,9 +89,6 @@ a:after {
 	text-align: center;
 }
 
-/*
-	Top Bar
-*/
 #section-topbar ul#nav {
 	display: inline-block;
 	position: relative;
@@ -107,7 +97,6 @@ a:after {
 
 	border-right: 1px solid #004663;
 
-	/* For IE, the outcast */
 	zoom:1;
 	*display: inline;
 }
@@ -120,30 +109,32 @@ a:after {
 
 #section-topbar ul#nav a {
   display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   text-decoration: none;
-  padding: 13px 15px 13px 15px;
+  padding: 13px 18px 13px 18px;
   border-left: 1px solid #004663;
+  color: #ffffff;
 }
-	#section-topbar ul#nav a:hover {
-	  background: #004663;
-	  text-decoration: none;
-	  border-left: 1px solid #00374e;
-	}
 
-	#section-topbar ul#nav a:active {
-		background: #008EAA;
-		border-left: 1px solid #00374e;
-	}
+#section-topbar ul#nav a:hover {
+  background: #004663;
+  text-decoration: none;
+  border-left: 1px solid #00374e;
+  color: #ffffff;
+}
 
-	#section-topbar ul#nav a:focus {
-		background: #008EAA;
-		border-left: 1px solid #00374e;
-	}
+#section-topbar ul#nav a:active,
+#section-topbar ul#nav a:focus {
+	background: #008EAA;
+	border-left: 1px solid #00374e;
+	color: #ffffff;
+}
 
 #section-topbar i {
 	font-size: 25px;
 }
+
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
@@ -167,12 +158,16 @@ a:after {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: white;
+	color: #ffffff !important;
+	font-weight: 700;
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
 #headerwrap h3 {
-	font-size: 20px;
-	color: white;
+	font-size: 22px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Intro Wrap */
@@ -181,47 +176,104 @@ a:after {
 	background: #00587C;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: white;
+	color: #ffffff;
 } 
 
-#intro h5, p {
-	color: white;
+#intro h5 {
+	color: #64CCC9 !important;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#intro p {
+	color: #ffffff !important;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+#intro a {
+	color: #64CCC9 !important;
+	font-weight: 600;
+}
+
+#intro a:hover {
+	color: #ffffff !important;
+	text-decoration: underline;
 }
 
 #intro i {
-	color: white;
+	color: #ffffff;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
 }
 
+/* Skills Wrap */
+
 #skillswrap {
 	background: #00587C;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: white;
+	color: #ffffff;
 }
 
-#skillswrap h5, p {
-	color: white;
+#skillswrap h5 {
+	color: #64CCC9 !important;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
+
+#skillswrap p {
+	color: #ffffff !important;
+}
+
+.skill-pill-container {
+    margin-bottom: 25px;
+    line-height: 2.2;
+}
+
+.skill-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff !important;
+    padding: 5px 14px;
+    margin: 4px 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.skill-category-label {
+    color: #64CCC9 !important;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+/* Footer Wrap */
 
 #footwrap {
 	background: #0f172a;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	color: #ffffff;
 }
 
 #footwrap p {
-	color: white;
+	color: #e2e8f0 !important;
+	font-size: 15px;
 }
 
 #footwrap h5 {
-	color: white;
+	color: #64CCC9 !important;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 
 #footwrap t {
 	font-weight: 700;
+	color: #ffffff !important;
 }
 
 #footwrap i {
@@ -229,16 +281,24 @@ a:after {
 	color: #64CCC9;
 }
 
+#footwrap a {
+	color: #64CCC9 !important;
+}
+
+#footwrap a:hover {
+	color: #ffffff !important;
+}
+
 /* Copyright Wrap */
 
 #c {
-	background: #0b1120;
+	background: #050914;
 	padding-top: 15px;
 	text-align: right;
 }
 
 #c p {
-	color: white
+	color: #94a3b8 !important;
 }
 
 /* Global Values */
@@ -248,50 +308,32 @@ a:after {
 }
 
 .desc p {
-	color: #334155;
+	color: #1e293b !important;
+	font-size: 15px;
+	line-height: 1.75;
 }
 
 .desc t {
-	color: #00587C;
+	color: #00587C !important;
 	font-weight: 700;
+	font-size: 16px;
 }
 
 .desc imp {
-	padding: 4px 8px;
-	color: white;
+	padding: 4px 10px;
+	color: #ffffff !important;
 	background: #008EAA;
 	border-radius: 4px;
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 6px;
 }
 
 .desc more {
-	color: #64748b;
+	color: #475569 !important;
 }
 
 sm {
-	font-size: 12px;
-}
-
-/* Skill Badge Pills Styling */
-.skill-pill-container {
-    margin-bottom: 25px;
-    line-height: 2;
-}
-
-.skill-badge {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.15);
-    color: #ffffff;
-    padding: 4px 12px;
-    margin: 3px 4px;
-    border-radius: 16px;
-    font-size: 14px;
-    font-weight: 400;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.skill-category-label {
-    color: #64CCC9;
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 8px;
+	font-size: 13px;
+	color: #64748b;
 }
